@@ -1,0 +1,11 @@
+
+[upsadmin]
+# Administrative user
+password = S3cUREPa5sw0rd
+# Allow changing values of certain variables in the UPS.
+actions = SET
+# Allow setting the "Forced Shutdown" flag in the UPS.
+actions = FSD
+# Allow all instant commands
+instcmds = ALL
+upsmon master
